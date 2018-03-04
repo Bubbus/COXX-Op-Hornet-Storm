@@ -389,7 +389,7 @@ switch (_typeofUnit) do
 	
 	case "pilot":
 	{
-		_unit setUnitLoadout [["rhsusf_weap_MP7A2","","","rhsusf_acc_RM05",["rhsusf_mag_40Rnd_46x30_AP",40],[],"rhs_acc_grip_ffg2"],[],[],["rhs_uniform_g3_rgr",[["ACE_fieldDressing",10],["ACRE_PRC152",1],["ACRE_PRC343",1],["ACE_morphine",10],["ACE_bloodIV_250",1],["ACE_epinephrine",1]]],["V_TacVest_oli",[["SmokeShell",2,1],["SmokeShellGreen",1,1],["SmokeShellBlue",1,1],["1Rnd_SmokeBlue_Grenade_shell",1,1],["1Rnd_SmokeOrange_Grenade_shell",1,1],["rhsusf_mag_40Rnd_46x30_AP",4,40]]],[],"rhsusf_hgu56p_visor_mask_green_mo","rhsusf_shemagh_gogg_tan",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","rhsusf_ANPVS_15"]];
+		_unit setUnitLoadout [["rhsusf_weap_MP7A2","","","rhsusf_acc_RM05",["rhsusf_mag_40Rnd_46x30_AP",40],[],"rhs_acc_grip_ffg2"],[],[],["rhs_uniform_g3_rgr",[["ACE_fieldDressing",10],["ACRE_PRC152",1],["ACRE_PRC343",1],["ACE_morphine",10],["ACE_bloodIV_250",1],["ACE_epinephrine",1]]],["V_TacVest_oli",[["usm_mre",1],["SmokeShell",2,1],["SmokeShellGreen",1,1],["SmokeShellBlue",1,1],["rhsusf_mag_40Rnd_46x30_AP",4,40]]],[],"rhsusf_hgu56p_visor_mask_green_mo","rhsusf_shemagh_gogg_tan",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","rhsusf_ANPVS_15"]];
 	};
 	
 	
@@ -419,7 +419,13 @@ switch (_typeofUnit) do
 	
 	case "mk":
 	{
-		_unit setUnitLoadout [["UK3CB_BAF_L129A1","","","rhsusf_acc_ACOG2_USMC",["ACE_20Rnd_762x51_M993_AP_Mag",20],[],"UK3CB_underbarrel_acc_fgrip_bipod"],[],["rhsusf_weap_glock17g4","","","",["rhsusf_mag_17Rnd_9x19_JHP",17],[],""],["rhs_uniform_g3_mc",[["ACE_fieldDressing",10],["ACRE_PRC343",1],["ACE_morphine",10],["ACE_epinephrine",1],["ACE_bloodIV_250",1],["rhsusf_mag_17Rnd_9x19_JHP",1,17]]],["rhsusf_iotv_ocp_SAW",[["rhs_mag_m67",2,1],["rhsusf_mag_17Rnd_9x19_JHP",2,17],["ACE_20Rnd_762x51_M993_AP_Mag",9,20],["SmokeShell",3,1]]],[],"rhsusf_opscore_mc_cover_pelt","rhsusf_shemagh_gogg_tan",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch",""]];
+		_unit setUnitLoadout [["UK3CB_BAF_L129A1","","","rhsusf_acc_SpecterDR_D",["ACE_20Rnd_762x51_M993_AP_Mag",20],[],"UK3CB_underbarrel_acc_fgrip_bipod"],[],["rhsusf_weap_glock17g4","","","",["rhsusf_mag_17Rnd_9x19_JHP",17],[],""],["rhs_uniform_g3_mc",[["ACE_fieldDressing",10],["ACRE_PRC343",1],["ACE_morphine",10],["ACE_epinephrine",1],["ACE_bloodIV_250",1],["rhsusf_mag_17Rnd_9x19_JHP",1,17]]],["rhsusf_iotv_ocp_SAW",[["rhs_mag_m67",2,1],["rhsusf_mag_17Rnd_9x19_JHP",2,17],["ACE_20Rnd_762x51_M993_AP_Mag",9,20],["SmokeShell",3,1]]],[],"rhsusf_opscore_mc_cover_pelt","rhsusf_shemagh_gogg_tan",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch",""]];
+	};
+	
+	
+	case "zeus":
+	{
+		_unit setUnitLoadout [["rhs_weap_m4a1_blockII_M203_d","","","rhsusf_acc_RM05",["rhs_mag_30Rnd_556x45_Mk318_Stanag",30],["1Rnd_HE_Grenade_shell",1],""],["rhs_weap_M136_hp","","","",["rhs_m136_hp_mag",1],[],""],["rhsusf_weap_glock17g4","","","",["rhsusf_mag_17Rnd_9x19_JHP",17],[],""],["rhs_uniform_g3_mc",[["ACE_fieldDressing",10],["ACRE_PRC152",1],["ACRE_PRC343",1],["ACE_morphine",10],["ACE_bloodIV_250",1],["ACE_epinephrine",1]]],["rhsusf_iotv_ocp_Grenadier",[["SmokeShell",4,1],["SmokeShellGreen",1,1],["SmokeShellBlue",1,1],["1Rnd_SmokeBlue_Grenade_shell",1,1],["1Rnd_SmokeOrange_Grenade_shell",1,1],["rhs_mag_30Rnd_556x45_Mk318_Stanag",5,30],["rhs_mag_m67",4,1],["1Rnd_HE_Grenade_shell",6,1]]],["B_Bergen_mcamo_F",[["ACRE_PRC148",1]]],"H_Construction_headset_red_F","rhsusf_shemagh_gogg_tan",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""]];
 	};
 
 
@@ -433,6 +439,7 @@ switch (_typeofUnit) do
 		
 		_unit addItemCargoGlobal ["rhs_weap_m4a1_blockII_d", 2];
 		_unit addItemCargoGlobal ["rhsusf_weap_glock17g4", 2];
+		_unit addItemCargoGlobal ["rhs_weap_M136_hp", 12];
 
 		_unit addItemCargoGlobal ["ACE_fieldDressing", 50];
 		_unit addItemCargoGlobal ["ACE_epinephrine", 20];
