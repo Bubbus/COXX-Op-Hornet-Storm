@@ -164,8 +164,8 @@ class CfgDebriefing
 {
 	class End1
 	{
-		title = "Ending #1";
-		subtitle = "";
+		title = "Target eliminated.";
+		subtitle = "Nice.";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -174,8 +174,8 @@ class CfgDebriefing
 
 	class End2
 	{
-		title = "Ending #2";
-		subtitle = "";
+		title = "Target escaped!";
+		subtitle = "How could this happen";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -184,8 +184,8 @@ class CfgDebriefing
 
 	class End3
 	{
-		title = "Ending #3";
-		subtitle = "";
+		title = "Mission failed.";
+		subtitle = ":(";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -362,6 +362,14 @@ class CfgFunctions
 			class addLaptopAction
 			{
 				file = "bub\bub_fnc_addLaptopAction.sqf";
+			};
+			class addBriefcaseAction
+			{
+				file = "bub\bub_fnc_addBriefcaseAction.sqf";
+			};
+			class briefcaseLocated
+			{
+				file = "bub\bub_fnc_briefcaseLocated.sqf";
 			};
 			class addDefuseAction
 			{
